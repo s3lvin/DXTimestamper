@@ -36,7 +36,7 @@ You can set your own fuzzy timestamp calculation logic like this
         return @"";
     }];
   
-The above configuration is global as of now. You need to call it before using any instance that conform to `<DXTimestamping`. If you want to have this logic to be configurable for each individual instance of `<DXTimestamping>` objects then just raise an issue. I will try to work on that.
+The above configuration is global as of now. You need to call it before using any instance that conform to `<DXTimestamping>`. If you want to have this logic to be configurable for each individual instance of `<DXTimestamping>` objects then just raise an issue. I will try to work on that.
 
 ## Screenshot
 
