@@ -8,6 +8,10 @@
 
 To run the example project, clone the repo, and run the example project. Please open the workspace not just the project.
 
+## Screenshot
+
+![DXCustomCallout](http://s26.postimg.org/smgiqhmw9/Timestamp.gif)
+
 ## Requirements
 
 * iOS 7 or above
