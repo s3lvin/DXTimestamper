@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DXTimestamper', :exclusive => true do
+  pod "DXTimestamper", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DXTimestamper", :path => "../"
+
+  
+end
