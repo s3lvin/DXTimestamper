@@ -1,0 +1,14 @@
+PODS:
+  - DXTimestamper (0.1.0)
+
+DEPENDENCIES:
+  - DXTimestamper (from `../`)
+
+EXTERNAL SOURCES:
+  DXTimestamper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DXTimestamper: 6f9ab8f50c486aa0c59a2bdaec8efe68d95d2bd7
+
+COCOAPODS: 0.36.3

@@ -1,0 +1,25 @@
+{
+  "name": "DXTimestamper",
+  "version": "0.1.0",
+  "summary": "A short description of DXTimestamper.",
+  "description": "                       An optional longer description of DXTimestamper\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DXTimestamper",
+  "license": "MIT",
+  "authors": {
+    "s3lvin": "mariaselvin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DXTimestamper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DXTimestamper": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

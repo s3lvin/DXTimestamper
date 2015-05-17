@@ -13,4 +13,9 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #import <DXTimestamper/DXTimestamper.h>
+    #import <DXTimestamper/DXTimestampLabel.h>
+    #import <DXTimestamper/DXTimestampButton.h>
+
 #endif

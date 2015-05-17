@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5CD3E0E2A26FC319F654BB /* NSDate+DXTimestamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7F171A325EDD24F8A363BD /* NSDate+DXTimestamp.h */; };
+		0CF9D6274670CD5CEE6326C7 /* DXTimestampLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BFE3498DC350737AF455F7 /* DXTimestampLabel.h */; };
+		1B45DF857CD0DBBDD9FEF234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2E9C096941D593DDDBAAA0 /* Foundation.framework */; };
+		20C1FED4084E66A8D743621A /* NSPointerArray+DXCompact.m in Sources */ = {isa = PBXBuildFile; fileRef = A73BE33B0092D5FE4EB1E649 /* NSPointerArray+DXCompact.m */; };
+		2E130BD7DAA4BC9DF3696BCD /* Pods-DXTimestamper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D83A37B08F2CC20D76EB378 /* Pods-DXTimestamper-dummy.m */; };
+		2E476C8B477C85BF2DD1BD7D /* NSPointerArray+DXCompact.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A227DEE108DC0BDF0348E /* NSPointerArray+DXCompact.h */; };
+		31564A11F25ECD7720091B0F /* DXTimestamper.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E3B39A40BB8AB34593720E /* DXTimestamper.h */; };
+		3C3902B89F3E2233A0B47101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2E9C096941D593DDDBAAA0 /* Foundation.framework */; };
+		4156246A4F0A91D8E30C01EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2E9C096941D593DDDBAAA0 /* Foundation.framework */; };
+		4D447B8B318F5876244425DC /* Pods-DXTimestamper-DXTimestamper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B76DE1A52E54A0C9441E71 /* Pods-DXTimestamper-DXTimestamper-dummy.m */; };
+		58AC1C7A74095B6316EF2013 /* DXTimestampButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 969E2872CE64C74112BE96F1 /* DXTimestampButton.h */; };
+		5968D95C3417C50C929A7253 /* DXTimestampLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BBF9F0D473CD735F01ECD4 /* DXTimestampLabel.m */; };
+		6E2317C2BFD8AEC1788ED45E /* DXTimestamper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2DD7491E758BED5BEEA11C /* DXTimestamper.m */; };
+		75397EA9A8C97AFC8C8A64F3 /* NSPointerArray+DXCompact.m in Sources */ = {isa = PBXBuildFile; fileRef = A73BE33B0092D5FE4EB1E649 /* NSPointerArray+DXCompact.m */; };
+		8C939C98628F01B63F215A8C /* DXTimestamper.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E3B39A40BB8AB34593720E /* DXTimestamper.h */; };
+		958AEF478B55F6AF7C9FC271 /* NSDate+DXTimestamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7F171A325EDD24F8A363BD /* NSDate+DXTimestamp.h */; };
+		9E92013C05F1347D14FA83DB /* NSDate+DXTimestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C13EA29546876C158725D /* NSDate+DXTimestamp.m */; };
+		A4599CECDF61687792897F76 /* NSPointerArray+DXCompact.h in Headers */ = {isa = PBXBuildFile; fileRef = F87A227DEE108DC0BDF0348E /* NSPointerArray+DXCompact.h */; };
+		A4E7BAF6D95932F648B3A8D9 /* NSDate+DXTimestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C13EA29546876C158725D /* NSDate+DXTimestamp.m */; };
+		BE6658364D0E6DF9CE8E68EA /* DXTimestampButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 969E2872CE64C74112BE96F1 /* DXTimestampButton.h */; };
+		D23973CE23B3D9765BFC2E1A /* DXTimestamper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2DD7491E758BED5BEEA11C /* DXTimestamper.m */; };
+		D6C6A1F415D03A0358A86C91 /* DXTimestampLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BFE3498DC350737AF455F7 /* DXTimestampLabel.h */; };
+		D91228CC639C122C6A3809BB /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98620E335C466BC2A80879C /* Pods-Tests-dummy.m */; };
+		DAF5EDD354351B49535707DE /* DXTimestampButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0F25BA3CF96F9C877B047 /* DXTimestampButton.m */; };
+		E10656E637B7FDF7161A3F2F /* DXTimestampButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D0F25BA3CF96F9C877B047 /* DXTimestampButton.m */; };
+		E35EC04567B1B8D9A270D9DB /* Pods-Tests-DXTimestamper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF9900494BE908ABCE0476 /* Pods-Tests-DXTimestamper-dummy.m */; };
+		ECE6D8EC3F608FE27EFA9B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2E9C096941D593DDDBAAA0 /* Foundation.framework */; };
+		FDC704E5E0B67BEFE6CEEDD1 /* DXTimestampLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BBF9F0D473CD735F01ECD4 /* DXTimestampLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C450D0AD14BA654099EF1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9808C153B8D5D9BEC8D12C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D7D191F64385041C1A174D;
+			remoteInfo = "Pods-Tests-DXTimestamper-DXTimestamper";
+		};
+		9C026A3143FE8F55E355CD34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9808C153B8D5D9BEC8D12C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B2D111215621A86316F295;
+			remoteInfo = "Pods-Tests-DXTimestamper";
+		};
+		AFF97BDA38FF1874249EE881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9808C153B8D5D9BEC8D12C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3570E6BBB832C0E5694D29;
+			remoteInfo = "Pods-DXTimestamper-DXTimestamper";
+		};
+		E5FAABD6515B0C4F0E9FA6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9808C153B8D5D9BEC8D12C00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E09C3D4A741DD751CAF5E5;
+			remoteInfo = "Pods-DXTimestamper-DXTimestamper-DXTimestamper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142180FE0264AE516F6A86F6 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D83A37B08F2CC20D76EB378 /* Pods-DXTimestamper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DXTimestamper-dummy.m"; sourceTree = "<group>"; };
+		1FC9D865CABCAB931A3CF569 /* Pods-Tests-DXTimestamper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DXTimestamper-Private.xcconfig"; path = "../Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper-Private.xcconfig"; sourceTree = "<group>"; };
+		209122DE65D2FEB2E70210CE /* Pods-DXTimestamper-DXTimestamper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXTimestamper-DXTimestamper-Private.xcconfig"; sourceTree = "<group>"; };
+		20BFE3498DC350737AF455F7 /* DXTimestampLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DXTimestampLabel.h; sourceTree = "<group>"; };
+		31388304AE509EB481C541F0 /* Pods-DXTimestamper-DXTimestamper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DXTimestamper-DXTimestamper-prefix.pch"; sourceTree = "<group>"; };
+		31949DF4575D33044806A9CF /* Pods-DXTimestamper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXTimestamper.debug.xcconfig"; sourceTree = "<group>"; };
+		3E199A106F6603A57747704A /* Pods-DXTimestamper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DXTimestamper-acknowledgements.plist"; sourceTree = "<group>"; };
+		4351F765E27AF47F8AEE41EA /* Pods-Tests-DXTimestamper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DXTimestamper.xcconfig"; path = "../Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper.xcconfig"; sourceTree = "<group>"; };
+		4E70F9D0A198E2288AC83176 /* Pods-DXTimestamper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DXTimestamper-environment.h"; sourceTree = "<group>"; };
+		55D0F25BA3CF96F9C877B047 /* DXTimestampButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DXTimestampButton.m; sourceTree = "<group>"; };
+		57E38D82457D89B8880C113C /* libPods-DXTimestamper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DXTimestamper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7F171A325EDD24F8A363BD /* NSDate+DXTimestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+DXTimestamp.h"; sourceTree = "<group>"; };
+		5EB7EAF2DA3390F760B7A28B /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		677F0E85A936EDDB44D45F76 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6ACF9900494BE908ABCE0476 /* Pods-Tests-DXTimestamper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DXTimestamper-dummy.m"; path = "../Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper-dummy.m"; sourceTree = "<group>"; };
+		7922DDA015C8305A3A53C97B /* Pods-DXTimestamper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXTimestamper.release.xcconfig"; sourceTree = "<group>"; };
+		7F2E9C096941D593DDDBAAA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82263CFA9C1A50160089C8B7 /* DXTimestamper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXTimestamper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		845C13EA29546876C158725D /* NSDate+DXTimestamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DXTimestamp.m"; sourceTree = "<group>"; };
+		85BBF9F0D473CD735F01ECD4 /* DXTimestampLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DXTimestampLabel.m; sourceTree = "<group>"; };
+		8E0B0487A400013F16852185 /* libPods-Tests-DXTimestamper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DXTimestamper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E280E1E2AD594BF2B74D3E9 /* libPods-DXTimestamper-DXTimestamper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DXTimestamper-DXTimestamper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B7A89DE4F2D57E8A95F75 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		969E2872CE64C74112BE96F1 /* DXTimestampButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DXTimestampButton.h; sourceTree = "<group>"; };
+		9D64C101B7F0A3E6CB2E6192 /* Pods-DXTimestamper-DXTimestamper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXTimestamper-DXTimestamper.xcconfig"; sourceTree = "<group>"; };
+		9EC4042B3476D4F86A078391 /* DXTimestamper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DXTimestamper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73BE33B0092D5FE4EB1E649 /* NSPointerArray+DXCompact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSPointerArray+DXCompact.m"; sourceTree = "<group>"; };
+		BD80A4306A29C9D62689C1C7 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3E6A59858FAA1086D02A89 /* Pods-Tests-DXTimestamper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DXTimestamper-prefix.pch"; path = "../Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper-prefix.pch"; sourceTree = "<group>"; };
+		C2293F5F98D7CFAC539F689A /* Pods-DXTimestamper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DXTimestamper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3DF6F9FF9A55A669FA7005E /* Pods-DXTimestamper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DXTimestamper-resources.sh"; sourceTree = "<group>"; };
+		CB30C30CF441BABCB55FC2C5 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE2DD7491E758BED5BEEA11C /* DXTimestamper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DXTimestamper.m; sourceTree = "<group>"; };
+		D2B76DE1A52E54A0C9441E71 /* Pods-DXTimestamper-DXTimestamper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DXTimestamper-DXTimestamper-dummy.m"; sourceTree = "<group>"; };
+		D4E3B39A40BB8AB34593720E /* DXTimestamper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DXTimestamper.h; sourceTree = "<group>"; };
+		D658E02CC7F7FB02ACCC68ED /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		E98620E335C466BC2A80879C /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		EF285C61361150DD34FD2524 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F87A227DEE108DC0BDF0348E /* NSPointerArray+DXCompact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSPointerArray+DXCompact.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553AC5AC6EBE66BAD2266339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D27187AC2307FD70A1B050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3902B89F3E2233A0B47101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E90C5693D99D93F04F7BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAF2F1F7D658E3729CD1CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6D8EC3F608FE27EFA9B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B5141879DB3DAB90BEA739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B45DF857CD0DBBDD9FEF234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2D8320ADA86A64E94CEC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4156246A4F0A91D8E30C01EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AFE06065B028EF1F365963 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB30C30CF441BABCB55FC2C5 /* Pods-Tests-acknowledgements.markdown */,
+				142180FE0264AE516F6A86F6 /* Pods-Tests-acknowledgements.plist */,
+				E98620E335C466BC2A80879C /* Pods-Tests-dummy.m */,
+				953B7A89DE4F2D57E8A95F75 /* Pods-Tests-environment.h */,
+				D658E02CC7F7FB02ACCC68ED /* Pods-Tests-resources.sh */,
+				5EB7EAF2DA3390F760B7A28B /* Pods-Tests.debug.xcconfig */,
+				677F0E85A936EDDB44D45F76 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		17A2030977CAE88C986394A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D64C101B7F0A3E6CB2E6192 /* Pods-DXTimestamper-DXTimestamper.xcconfig */,
+				209122DE65D2FEB2E70210CE /* Pods-DXTimestamper-DXTimestamper-Private.xcconfig */,
+				D2B76DE1A52E54A0C9441E71 /* Pods-DXTimestamper-DXTimestamper-dummy.m */,
+				31388304AE509EB481C541F0 /* Pods-DXTimestamper-DXTimestamper-prefix.pch */,
+				4351F765E27AF47F8AEE41EA /* Pods-Tests-DXTimestamper.xcconfig */,
+				1FC9D865CABCAB931A3CF569 /* Pods-Tests-DXTimestamper-Private.xcconfig */,
+				6ACF9900494BE908ABCE0476 /* Pods-Tests-DXTimestamper-dummy.m */,
+				BE3E6A59858FAA1086D02A89 /* Pods-Tests-DXTimestamper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DXTimestamper-DXTimestamper";
+			sourceTree = "<group>";
+		};
+		6398327E4590BF73A8491709 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				923D8BBC628890102821AACB /* Pods-DXTimestamper */,
+				04AFE06065B028EF1F365963 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B3AE7A902CAB2E0E991E3DC = {
+			isa = PBXGroup;
+			children = (
+				EF285C61361150DD34FD2524 /* Podfile */,
+				D7D6A5A1687309EAFB5FFC01 /* Development Pods */,
+				F843339BA483C5DEBB5AC5C6 /* Frameworks */,
+				E857A7542A3DD46193C87449 /* Products */,
+				6398327E4590BF73A8491709 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		923D8BBC628890102821AACB /* Pods-DXTimestamper */ = {
+			isa = PBXGroup;
+			children = (
+				C2293F5F98D7CFAC539F689A /* Pods-DXTimestamper-acknowledgements.markdown */,
+				3E199A106F6603A57747704A /* Pods-DXTimestamper-acknowledgements.plist */,
+				1D83A37B08F2CC20D76EB378 /* Pods-DXTimestamper-dummy.m */,
+				4E70F9D0A198E2288AC83176 /* Pods-DXTimestamper-environment.h */,
+				C3DF6F9FF9A55A669FA7005E /* Pods-DXTimestamper-resources.sh */,
+				31949DF4575D33044806A9CF /* Pods-DXTimestamper.debug.xcconfig */,
+				7922DDA015C8305A3A53C97B /* Pods-DXTimestamper.release.xcconfig */,
+			);
+			name = "Pods-DXTimestamper";
+			path = "Target Support Files/Pods-DXTimestamper";
+			sourceTree = "<group>";
+		};
+		A5D3F9DDD1BE4103BBC47540 /* DXTimestamper */ = {
+			isa = PBXGroup;
+			children = (
+				A7646F32B9618F38A8725725 /* Pod */,
+				17A2030977CAE88C986394A4 /* Support Files */,
+			);
+			name = DXTimestamper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A7646F32B9618F38A8725725 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C34668F3921A51963117421F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C34668F3921A51963117421F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				969E2872CE64C74112BE96F1 /* DXTimestampButton.h */,
+				55D0F25BA3CF96F9C877B047 /* DXTimestampButton.m */,
+				20BFE3498DC350737AF455F7 /* DXTimestampLabel.h */,
+				85BBF9F0D473CD735F01ECD4 /* DXTimestampLabel.m */,
+				D4E3B39A40BB8AB34593720E /* DXTimestamper.h */,
+				CE2DD7491E758BED5BEEA11C /* DXTimestamper.m */,
+				5C7F171A325EDD24F8A363BD /* NSDate+DXTimestamp.h */,
+				845C13EA29546876C158725D /* NSDate+DXTimestamp.m */,
+				F87A227DEE108DC0BDF0348E /* NSPointerArray+DXCompact.h */,
+				A73BE33B0092D5FE4EB1E649 /* NSPointerArray+DXCompact.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D7D6A5A1687309EAFB5FFC01 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3F9DDD1BE4103BBC47540 /* DXTimestamper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DB42BFDB3FE72E5BDDF299DE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E9C096941D593DDDBAAA0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E857A7542A3DD46193C87449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82263CFA9C1A50160089C8B7 /* DXTimestamper.bundle */,
+				9EC4042B3476D4F86A078391 /* DXTimestamper.bundle */,
+				57E38D82457D89B8880C113C /* libPods-DXTimestamper.a */,
+				8E280E1E2AD594BF2B74D3E9 /* libPods-DXTimestamper-DXTimestamper.a */,
+				BD80A4306A29C9D62689C1C7 /* libPods-Tests.a */,
+				8E0B0487A400013F16852185 /* libPods-Tests-DXTimestamper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F843339BA483C5DEBB5AC5C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB42BFDB3FE72E5BDDF299DE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FF6C2272AA2C09D08967B26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6658364D0E6DF9CE8E68EA /* DXTimestampButton.h in Headers */,
+				0CF9D6274670CD5CEE6326C7 /* DXTimestampLabel.h in Headers */,
+				31564A11F25ECD7720091B0F /* DXTimestamper.h in Headers */,
+				958AEF478B55F6AF7C9FC271 /* NSDate+DXTimestamp.h in Headers */,
+				A4599CECDF61687792897F76 /* NSPointerArray+DXCompact.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9674B3BE9ED06F39C24DC1BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AC1C7A74095B6316EF2013 /* DXTimestampButton.h in Headers */,
+				D6C6A1F415D03A0358A86C91 /* DXTimestampLabel.h in Headers */,
+				8C939C98628F01B63F215A8C /* DXTimestamper.h in Headers */,
+				0C5CD3E0E2A26FC319F654BB /* NSDate+DXTimestamp.h in Headers */,
+				2E476C8B477C85BF2DD1BD7D /* NSPointerArray+DXCompact.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0372CB5A6D20407B9C73E522 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6B3AB0F117FAE190374CA0 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				703CE9E0DBD9467860F28C82 /* Sources */,
+				75D27187AC2307FD70A1B050 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485510CF0176477C270EFD12 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = BD80A4306A29C9D62689C1C7 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		10D7D191F64385041C1A174D /* Pods-Tests-DXTimestamper-DXTimestamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF10D6F3999E67E2F00542E /* Build configuration list for PBXNativeTarget "Pods-Tests-DXTimestamper-DXTimestamper" */;
+			buildPhases = (
+				F56986992B612B5F99BD76F4 /* Sources */,
+				553AC5AC6EBE66BAD2266339 /* Frameworks */,
+				30D43EFBC3583913B7109C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-DXTimestamper-DXTimestamper";
+			productName = "Pods-Tests-DXTimestamper-DXTimestamper";
+			productReference = 82263CFA9C1A50160089C8B7 /* DXTimestamper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		74E09C3D4A741DD751CAF5E5 /* Pods-DXTimestamper-DXTimestamper-DXTimestamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708BAC9D4A8141893A30D5BD /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper-DXTimestamper-DXTimestamper" */;
+			buildPhases = (
+				6ED9223C904CA285179F1973 /* Sources */,
+				90E90C5693D99D93F04F7BE7 /* Frameworks */,
+				CC44CB59D143ABC502792F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DXTimestamper-DXTimestamper-DXTimestamper";
+			productName = "Pods-DXTimestamper-DXTimestamper-DXTimestamper";
+			productReference = 9EC4042B3476D4F86A078391 /* DXTimestamper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DF3570E6BBB832C0E5694D29 /* Pods-DXTimestamper-DXTimestamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E92910AED1C47483407AC2 /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper-DXTimestamper" */;
+			buildPhases = (
+				C6C80ECC45C6167C93FCBAED /* Sources */,
+				D1B5141879DB3DAB90BEA739 /* Frameworks */,
+				9674B3BE9ED06F39C24DC1BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B0EECAF7D4BD6DD507A6DB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DXTimestamper-DXTimestamper";
+			productName = "Pods-DXTimestamper-DXTimestamper";
+			productReference = 8E280E1E2AD594BF2B74D3E9 /* libPods-DXTimestamper-DXTimestamper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5B2D111215621A86316F295 /* Pods-Tests-DXTimestamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BD08282798F5D2687D96A3 /* Build configuration list for PBXNativeTarget "Pods-Tests-DXTimestamper" */;
+			buildPhases = (
+				43E49060ECB009D8850C7220 /* Sources */,
+				FA2D8320ADA86A64E94CEC7E /* Frameworks */,
+				0FF6C2272AA2C09D08967B26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28296E17F3F8FB64A769EDB /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DXTimestamper";
+			productName = "Pods-Tests-DXTimestamper";
+			productReference = 8E0B0487A400013F16852185 /* libPods-Tests-DXTimestamper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE4928C450BABF818B6A4A5D /* Pods-DXTimestamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4136ED55F6AFC8A2DC51E7E /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper" */;
+			buildPhases = (
+				ABADB762B954755E813A3489 /* Sources */,
+				CDAF2F1F7D658E3729CD1CE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C7E5C476A25452CE1B5F7A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DXTimestamper";
+			productName = "Pods-DXTimestamper";
+			productReference = 57E38D82457D89B8880C113C /* libPods-DXTimestamper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9808C153B8D5D9BEC8D12C00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C0D2859E939AA55098B43785 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B3AE7A902CAB2E0E991E3DC;
+			productRefGroup = E857A7542A3DD46193C87449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4928C450BABF818B6A4A5D /* Pods-DXTimestamper */,
+				DF3570E6BBB832C0E5694D29 /* Pods-DXTimestamper-DXTimestamper */,
+				74E09C3D4A741DD751CAF5E5 /* Pods-DXTimestamper-DXTimestamper-DXTimestamper */,
+				0372CB5A6D20407B9C73E522 /* Pods-Tests */,
+				F5B2D111215621A86316F295 /* Pods-Tests-DXTimestamper */,
+				10D7D191F64385041C1A174D /* Pods-Tests-DXTimestamper-DXTimestamper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D43EFBC3583913B7109C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC44CB59D143ABC502792F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E49060ECB009D8850C7220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10656E637B7FDF7161A3F2F /* DXTimestampButton.m in Sources */,
+				5968D95C3417C50C929A7253 /* DXTimestampLabel.m in Sources */,
+				6E2317C2BFD8AEC1788ED45E /* DXTimestamper.m in Sources */,
+				A4E7BAF6D95932F648B3A8D9 /* NSDate+DXTimestamp.m in Sources */,
+				20C1FED4084E66A8D743621A /* NSPointerArray+DXCompact.m in Sources */,
+				E35EC04567B1B8D9A270D9DB /* Pods-Tests-DXTimestamper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED9223C904CA285179F1973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703CE9E0DBD9467860F28C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91228CC639C122C6A3809BB /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABADB762B954755E813A3489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E130BD7DAA4BC9DF3696BCD /* Pods-DXTimestamper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C80ECC45C6167C93FCBAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5EDD354351B49535707DE /* DXTimestampButton.m in Sources */,
+				FDC704E5E0B67BEFE6CEEDD1 /* DXTimestampLabel.m in Sources */,
+				D23973CE23B3D9765BFC2E1A /* DXTimestamper.m in Sources */,
+				9E92013C05F1347D14FA83DB /* NSDate+DXTimestamp.m in Sources */,
+				75397EA9A8C97AFC8C8A64F3 /* NSPointerArray+DXCompact.m in Sources */,
+				4D447B8B318F5876244425DC /* Pods-DXTimestamper-DXTimestamper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56986992B612B5F99BD76F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B0EECAF7D4BD6DD507A6DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DXTimestamper-DXTimestamper-DXTimestamper";
+			target = 74E09C3D4A741DD751CAF5E5 /* Pods-DXTimestamper-DXTimestamper-DXTimestamper */;
+			targetProxy = E5FAABD6515B0C4F0E9FA6B5 /* PBXContainerItemProxy */;
+		};
+		485510CF0176477C270EFD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DXTimestamper";
+			target = F5B2D111215621A86316F295 /* Pods-Tests-DXTimestamper */;
+			targetProxy = 9C026A3143FE8F55E355CD34 /* PBXContainerItemProxy */;
+		};
+		9C7E5C476A25452CE1B5F7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DXTimestamper-DXTimestamper";
+			target = DF3570E6BBB832C0E5694D29 /* Pods-DXTimestamper-DXTimestamper */;
+			targetProxy = AFF97BDA38FF1874249EE881 /* PBXContainerItemProxy */;
+		};
+		A28296E17F3F8FB64A769EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DXTimestamper-DXTimestamper";
+			target = 10D7D191F64385041C1A174D /* Pods-Tests-DXTimestamper-DXTimestamper */;
+			targetProxy = 2C450D0AD14BA654099EF1B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02981790D3293131FCABB02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31949DF4575D33044806A9CF /* Pods-DXTimestamper.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		348BCE401545F7853AC00E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC9D865CABCAB931A3CF569 /* Pods-Tests-DXTimestamper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E50F0034E0925ACA7495B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F8D255DB2E051F6B1D6C8F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677F0E85A936EDDB44D45F76 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86566A919043637348202EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DXTimestamper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		989C95270252C90A938F9A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB7EAF2DA3390F760B7A28B /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0C7C0078EDBADEACE3444CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7922DDA015C8305A3A53C97B /* Pods-DXTimestamper.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A23EBAAB476231886F197210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DXTimestamper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A27C08709C6435ACE2B3D311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209122DE65D2FEB2E70210CE /* Pods-DXTimestamper-DXTimestamper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DXTimestamper-DXTimestamper/Pods-DXTimestamper-DXTimestamper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7BCB4ECDFEE6919174A47BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DXTimestamper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AD04A402BE4CEBBA787762E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC9D865CABCAB931A3CF569 /* Pods-Tests-DXTimestamper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DXTimestamper/Pods-Tests-DXTimestamper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BD814CE7CC2167D41DD2CB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209122DE65D2FEB2E70210CE /* Pods-DXTimestamper-DXTimestamper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DXTimestamper-DXTimestamper/Pods-DXTimestamper-DXTimestamper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BED34953FDB61E98EB0F649E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF785A84B77E1057D05CEE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DXTimestamper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF10D6F3999E67E2F00542E /* Build configuration list for PBXNativeTarget "Pods-Tests-DXTimestamper-DXTimestamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BCB4ECDFEE6919174A47BC /* Debug */,
+				86566A919043637348202EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BD08282798F5D2687D96A3 /* Build configuration list for PBXNativeTarget "Pods-Tests-DXTimestamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD04A402BE4CEBBA787762E5 /* Debug */,
+				348BCE401545F7853AC00E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E92910AED1C47483407AC2 /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper-DXTimestamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD814CE7CC2167D41DD2CB85 /* Debug */,
+				A27C08709C6435ACE2B3D311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708BAC9D4A8141893A30D5BD /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper-DXTimestamper-DXTimestamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF785A84B77E1057D05CEE37 /* Debug */,
+				A23EBAAB476231886F197210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6B3AB0F117FAE190374CA0 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989C95270252C90A938F9A4E /* Debug */,
+				7F8D255DB2E051F6B1D6C8F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4136ED55F6AFC8A2DC51E7E /* Build configuration list for PBXNativeTarget "Pods-DXTimestamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02981790D3293131FCABB02E /* Debug */,
+				A0C7C0078EDBADEACE3444CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D2859E939AA55098B43785 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E50F0034E0925ACA7495B5A /* Debug */,
+				BED34953FDB61E98EB0F649E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9808C153B8D5D9BEC8D12C00 /* Project object */;
+}
